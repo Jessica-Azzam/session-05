@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        * {
+            font-size: 20px;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            border: 1px solid black;
+
+            width: 400px;
+            background-color: rgb(75, 72, 72);
+            border-radius: 10px;
+            position: relative;
+        }
+.image{
+   position: relative;
+   height: 100px;
+}
+        .image img {
+            width: 200px;
+   
+
+            border-radius:50%;
+            border:7px solid rgb(193, 50, 157);
+            position: absolute;
+            top: -50%;
+            left: 50%;
+            transform: translateX(-50%);
+ 
+        }
+    
+      
+        h2 {
+            color: rgba(255, 71, 178, 0.819);
+            font-size: 30px;
+
+        }
+
+        form {
+            gap: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        b ,p{
+            color: white;
+        }
+
+        .tags img {
+            width: 40px;
+        }
+
+        .tags {
+            gap: 20px;
+            display: flex;
+            justify-content: space-around;
+            overflow: hidden;
+        }
+
+        .footer {
+            background-color: rgb(235, 60, 177);
+            padding: 25px;
+            color: white;
+            display: flex;
+justify-content: center;
+border-radius: 6px;
+
+        }
+        .content{
+          margin-top: 40px;
+        }
+    </style>
+    <div class="main">
+        <div class="image">
+            <img src="202-2024792_user-profile-icon-png-download-fa-user-circle.png">
+        </div>
+        <div class="content">
+
+        </div>
+        <form>
+            <h2>Your Name</h2>
+            <p>youremail@amail.com</p>
+            <b>Developer|Designer</b>
+            <div class="tags">
+                <a href="#"><img src="free-youtube-logo-pink-icon-10689-thumb.png"></a>
+                <a href="#"><img src="pngtree-twitter-pink-icon-with-transparent-background-png-image_5533404.jpg"></a>
+                <a href="#"><img src="images.png"></a>
+            </div>
+        </form>
+        <div class="footer">
+            <h3>120k Followers|10k Following</h3>
+        </div>
+    </div>
+
+</html>
